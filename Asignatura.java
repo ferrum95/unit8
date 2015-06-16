@@ -28,13 +28,13 @@ public class Asignatura {
         this.nombre = nombre;
     }
     
-    public String getDni()
+    public double getNota()
     {
-        return dni;
+        return nota;
     }
     
-    public void setDni(String dni)
+    public void setNota(double nota)
     {
-        this.dni = dni;
+        this.nota = nota;
     }
 }

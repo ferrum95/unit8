@@ -7,8 +7,18 @@ package unit8;
 
 /**
  *
- * @author Aspire
+ * @author Alberto del Hierro
  */
-public class Profesor {
+public class Profesor extends Persona{
+
+    public Profesor(String nombre, String nota)
+    {
+        super(nombre, nota);
+    }
+    
+    @Override
+    public boolean esProfesor() {
+        return true;
+    }
     
 }
