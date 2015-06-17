@@ -10,7 +10,18 @@ package unit8;
  * @author Alberto del Hierro
  */
 public class Profesor extends Persona{
-
+    private int salario;
+    
+    public int getSalario()
+    {
+        return salario;
+    }
+    
+    public void setSalario(int salario)
+    {
+        this.salario = salario;
+    }
+    
     public Profesor(String nombre, String nota)
     {
         super(nombre, nota);
