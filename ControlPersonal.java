@@ -25,7 +25,7 @@ public class ControlPersonal {
     public static void main(String[] args)
     {
         Asignatura a1 = new Asignatura("Entornos");
-        Asignatura a2 = new Asignatura("Sistemas");
+        Asignatura a2 = new Asignatura("Lenguaje de marcas");
         Asignatura a3 = new Asignatura("Programacion");
         
         Persona p1 = new Profesor("Rosa","2132134");
